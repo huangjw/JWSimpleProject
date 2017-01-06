@@ -15,6 +15,14 @@
 		F4A84BB51E1F719400F83D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A84BB31E1F719400F83D85 /* LaunchScreen.storyboard */; };
 		F4A84BC01E1F719400F83D85 /* JWSimpleProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A84BBF1E1F719400F83D85 /* JWSimpleProjectTests.m */; };
 		F4A84BCB1E1F719400F83D85 /* JWSimpleProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A84BCA1E1F719400F83D85 /* JWSimpleProjectUITests.m */; };
+		F4A84C201E1F776600F83D85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A84BAC1E1F719400F83D85 /* ViewController.m */; };
+		F4A84C211E1F776600F83D85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A84BA91E1F719400F83D85 /* AppDelegate.m */; };
+		F4A84C221E1F776600F83D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A84BA61E1F719400F83D85 /* main.m */; };
+		F4A84C251E1F776600F83D85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A84BB31E1F719400F83D85 /* LaunchScreen.storyboard */; };
+		F4A84C261E1F776600F83D85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4A84BB11E1F719400F83D85 /* Assets.xcassets */; };
+		F4A84C271E1F776600F83D85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4A84BAE1E1F719400F83D85 /* Main.storyboard */; };
+		F4A84C2F1E1F78DF00F83D85 /* huangjw-simple-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4A84C2D1E1F78DF00F83D85 /* huangjw-simple-Info.plist */; };
+		F4A84C301E1F78DF00F83D85 /* huangjw-simple-test-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F4A84C2E1E1F78DF00F83D85 /* huangjw-simple-test-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +52,15 @@
 		F4A84BAF1E1F719400F83D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4A84BB11E1F719400F83D85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4A84BB41E1F719400F83D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F4A84BB61E1F719400F83D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A84BBB1E1F719400F83D85 /* JWSimpleProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWSimpleProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A84BBF1E1F719400F83D85 /* JWSimpleProjectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWSimpleProjectTests.m; sourceTree = "<group>"; };
 		F4A84BC11E1F719400F83D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4A84BC61E1F719400F83D85 /* JWSimpleProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWSimpleProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A84BCA1E1F719400F83D85 /* JWSimpleProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JWSimpleProjectUITests.m; sourceTree = "<group>"; };
 		F4A84BCC1E1F719400F83D85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4A84C2B1E1F776600F83D85 /* com.huangjw.simple.test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = com.huangjw.simple.test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4A84C2D1E1F78DF00F83D85 /* huangjw-simple-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "huangjw-simple-Info.plist"; sourceTree = "<group>"; };
+		F4A84C2E1E1F78DF00F83D85 /* huangjw-simple-test-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "huangjw-simple-test-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +79,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		F4A84BC31E1F719400F83D85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A84C231E1F776600F83D85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -94,6 +111,7 @@
 				F4A84BA21E1F719400F83D85 /* JWSimpleProject.app */,
 				F4A84BBB1E1F719400F83D85 /* JWSimpleProjectTests.xctest */,
 				F4A84BC61E1F719400F83D85 /* JWSimpleProjectUITests.xctest */,
+				F4A84C2B1E1F776600F83D85 /* com.huangjw.simple.test.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -107,8 +125,9 @@
 				F4A84BAC1E1F719400F83D85 /* ViewController.m */,
 				F4A84BAE1E1F719400F83D85 /* Main.storyboard */,
 				F4A84BB11E1F719400F83D85 /* Assets.xcassets */,
+				F4A84C2D1E1F78DF00F83D85 /* huangjw-simple-Info.plist */,
+				F4A84C2E1E1F78DF00F83D85 /* huangjw-simple-test-Info.plist */,
 				F4A84BB31E1F719400F83D85 /* LaunchScreen.storyboard */,
-				F4A84BB61E1F719400F83D85 /* Info.plist */,
 				F4A84BA51E1F719400F83D85 /* Supporting Files */,
 			);
 			path = JWSimpleProject;
@@ -196,6 +215,23 @@
 			productReference = F4A84BC61E1F719400F83D85 /* JWSimpleProjectUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		F4A84C1E1E1F776600F83D85 /* com.huangjw.simple.test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4A84C281E1F776600F83D85 /* Build configuration list for PBXNativeTarget "com.huangjw.simple.test" */;
+			buildPhases = (
+				F4A84C1F1E1F776600F83D85 /* Sources */,
+				F4A84C231E1F776600F83D85 /* Frameworks */,
+				F4A84C241E1F776600F83D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = com.huangjw.simple.test;
+			productName = JWSimpleProject;
+			productReference = F4A84C2B1E1F776600F83D85 /* com.huangjw.simple.test.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -222,6 +258,9 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = F4A84BA11E1F719400F83D85;
 					};
+					F4A84C1E1E1F776600F83D85 = {
+						DevelopmentTeam = 2UVXW5XGFB;
+					};
 				};
 			};
 			buildConfigurationList = F4A84B9D1E1F719400F83D85 /* Build configuration list for PBXProject "JWSimpleProject" */;
@@ -238,6 +277,7 @@
 			projectRoot = "";
 			targets = (
 				F4A84BA11E1F719400F83D85 /* JWSimpleProject */,
+				F4A84C1E1E1F776600F83D85 /* com.huangjw.simple.test */,
 				F4A84BBA1E1F719400F83D85 /* JWSimpleProjectTests */,
 				F4A84BC51E1F719400F83D85 /* JWSimpleProjectUITests */,
 			);
@@ -249,9 +289,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4A84C301E1F78DF00F83D85 /* huangjw-simple-test-Info.plist in Resources */,
 				F4A84BB51E1F719400F83D85 /* LaunchScreen.storyboard in Resources */,
 				F4A84BB21E1F719400F83D85 /* Assets.xcassets in Resources */,
 				F4A84BB01E1F719400F83D85 /* Main.storyboard in Resources */,
+				F4A84C2F1E1F78DF00F83D85 /* huangjw-simple-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +308,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A84C241E1F776600F83D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A84C251E1F776600F83D85 /* LaunchScreen.storyboard in Resources */,
+				F4A84C261E1F776600F83D85 /* Assets.xcassets in Resources */,
+				F4A84C271E1F776600F83D85 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,6 +347,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4A84BCB1E1F719400F83D85 /* JWSimpleProjectUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A84C1F1E1F776600F83D85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4A84C201E1F776600F83D85 /* ViewController.m in Sources */,
+				F4A84C211E1F776600F83D85 /* AppDelegate.m in Sources */,
+				F4A84C221E1F776600F83D85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +435,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -414,7 +476,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -426,9 +488,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UVXW5XGFB;
-				INFOPLIST_FILE = JWSimpleProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JWSimpleProject/huangjw-simple-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huangjw.JWSimpleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangjw.simple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -438,9 +500,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 2UVXW5XGFB;
-				INFOPLIST_FILE = JWSimpleProject/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/JWSimpleProject/huangjw-simple-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.huangjw.JWSimpleProject;
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangjw.simple;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -495,6 +557,30 @@
 			};
 			name = Release;
 		};
+		F4A84C291E1F776600F83D85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UVXW5XGFB;
+				INFOPLIST_FILE = "$(SRCROOT)/JWSimpleProject/huangjw-simple-test-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangjw.simple.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F4A84C2A1E1F776600F83D85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2UVXW5XGFB;
+				INFOPLIST_FILE = "$(SRCROOT)/JWSimpleProject/huangjw-simple-test-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.huangjw.simple.test;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -514,6 +600,7 @@
 				F4A84BD11E1F719400F83D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4A84BD21E1F719400F83D85 /* Build configuration list for PBXNativeTarget "JWSimpleProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +609,7 @@
 				F4A84BD41E1F719400F83D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F4A84BD51E1F719400F83D85 /* Build configuration list for PBXNativeTarget "JWSimpleProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +618,16 @@
 				F4A84BD71E1F719400F83D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4A84C281E1F776600F83D85 /* Build configuration list for PBXNativeTarget "com.huangjw.simple.test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4A84C291E1F776600F83D85 /* Debug */,
+				F4A84C2A1E1F776600F83D85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

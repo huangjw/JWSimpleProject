@@ -1,2 +1,2 @@
 # JWSimpleProject
-A simple project to test
+A simple project for test
