@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "TableViewSimpleVC.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    self.title = @"Master";
 }
 
 
@@ -25,5 +27,9 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)jump:(id)sender {
+    TableViewSimpleVC *table = [[TableViewSimpleVC alloc] init];
+    [self.navigationController pushViewController:table animated:YES];
+}
 
 @end
