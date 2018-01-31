@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F43D95C81ECD519A0006253D /* RuntimeMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = F43D95C71ECD519A0006253D /* RuntimeMethods.m */; };
 		F4A84BA71E1F719400F83D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A84BA61E1F719400F83D85 /* main.m */; };
 		F4A84BAA1E1F719400F83D85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A84BA91E1F719400F83D85 /* AppDelegate.m */; };
 		F4A84BAD1E1F719400F83D85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A84BAC1E1F719400F83D85 /* ViewController.m */; };
@@ -47,6 +48,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F43D95C61ECD519A0006253D /* RuntimeMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeMethods.h; sourceTree = "<group>"; };
+		F43D95C71ECD519A0006253D /* RuntimeMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeMethods.m; sourceTree = "<group>"; };
 		F4A84BA21E1F719400F83D85 /* JWSimpleProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWSimpleProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A84BA61E1F719400F83D85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F4A84BA81E1F719400F83D85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -135,6 +138,8 @@
 				F4A84C331E1F8C9800F83D85 /* ArrayDataSource.m */,
 				F4A84C361E1F8DE300F83D85 /* TableViewSimpleVC.h */,
 				F4A84C371E1F8DE300F83D85 /* TableViewSimpleVC.m */,
+				F43D95C61ECD519A0006253D /* RuntimeMethods.h */,
+				F43D95C71ECD519A0006253D /* RuntimeMethods.m */,
 				F4A84BAE1E1F719400F83D85 /* Main.storyboard */,
 				F4A84BB11E1F719400F83D85 /* Assets.xcassets */,
 				F4A84C2D1E1F78DF00F83D85 /* huangjw-simple-Info.plist */,
@@ -343,6 +348,7 @@
 				F4A84C381E1F8DE300F83D85 /* TableViewSimpleVC.m in Sources */,
 				F4A84BAD1E1F719400F83D85 /* ViewController.m in Sources */,
 				F4A84BAA1E1F719400F83D85 /* AppDelegate.m in Sources */,
+				F43D95C81ECD519A0006253D /* RuntimeMethods.m in Sources */,
 				F4A84C341E1F8C9800F83D85 /* ArrayDataSource.m in Sources */,
 				F4A84BA71E1F719400F83D85 /* main.m in Sources */,
 			);
